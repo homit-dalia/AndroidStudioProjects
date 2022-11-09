@@ -1,0 +1,98 @@
+body { background-color: green}
+
+.container{
+  position: absolute;
+   left: 50%;
+   top: 17px;
+   -webkit-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+
+.nav_menu {
+      list-style: none;
+
+      top:50%;
+      left:50%;
+}
+
+
+
+.nav_menu li {
+    min-width: 7em;
+    font-size: 0.7cm;
+    float:left;
+    margin-right: 1em;
+    text-align: center;
+    font-family: cursive;
+}
+
+#mainbody {
+   color: black;
+}
+
+.sticky_note_image{
+      position: relative;
+      text-align: left;
+      color:red;
+}
+
+.left_text{
+     text-decoration:underline;
+     position: absolute;
+     bottom:400px;
+     left:160px;
+     color: blue;
+     font-size: 20px;
+}
+
+
+.nav_menu li a:link,
+.nav_menu li a:visited{
+  color: white;
+  background-color: grey;
+  display: block;
+  padding: 0.05em;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0 0.2em 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+.nav_menu li a:hover{
+     color: black;
+}
+
+#intro {
+  
+    background: linear-gradient(white, black);
+    background: -wewbkit-linear-gradient(#eb3349, #f45c43);
+    background: -o-linear-gradient(#eb3349, #f45c43);
+    background: -moz-linear-gradient(#eb3349, #f45c43);
+    padding: 30px 30px;
+    margin: 16px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+   color: black;
+ }
+
+.clear{
+  clear:both;
+}

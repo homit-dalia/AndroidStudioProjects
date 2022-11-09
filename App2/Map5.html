@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cd2c77c503814fb2aa0e8b203b979de3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cd2c77c503814fb2aa0e8b203b979de3" ></div>
+        
+</body>
+<script>    
+    
+            var map_cd2c77c503814fb2aa0e8b203b979de3 = L.map(
+                "map_cd2c77c503814fb2aa0e8b203b979de3",
+                {
+                    center: [38.0, -99.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b0cd99e8eea24f4ca682195f4c4186cb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cd2c77c503814fb2aa0e8b203b979de3);
+        
+    
+            var circle_7282ba8d36544ef3b1878b43c163196f = L.circle(
+                [30.0, 90.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_cd2c77c503814fb2aa0e8b203b979de3);
+        
+    
+            var marker_90760fc5f5274049bfccbfc8976993de = L.marker(
+                [48.7767982, -121.810997],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_843d1a3010f84e23a6c0b2c035ea370d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_90760fc5f5274049bfccbfc8976993de.setIcon(icon_843d1a3010f84e23a6c0b2c035ea370d);
+        
+    
+        var popup_1295054802564259b8d8bdd41a0bd82f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b78a725528f44c0ead14622193c84c2f = $(`<div id="html_b78a725528f44c0ead14622193c84c2f" style="width: 100.0%; height: 100.0%;">Baker - Historical 3285.0 m</div>`)[0];
+            popup_1295054802564259b8d8bdd41a0bd82f.setContent(html_b78a725528f44c0ead14622193c84c2f);
+        
+
+        marker_90760fc5f5274049bfccbfc8976993de.bindPopup(popup_1295054802564259b8d8bdd41a0bd82f)
+        ;
+
+        
+    
+    
+            var marker_1387597277584ac2a147feedba7d19fe = L.marker(
+                [48.1118011, -121.1110001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_7daa4c5926524eda98522c68fab0484a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1387597277584ac2a147feedba7d19fe.setIcon(icon_7daa4c5926524eda98522c68fab0484a);
+        
+    
+        var popup_f4aa49d96a53497d9641ab848baa49bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e59bbf0ca637461fad5d8eb6bdaf62e5 = $(`<div id="html_e59bbf0ca637461fad5d8eb6bdaf62e5" style="width: 100.0%; height: 100.0%;">Glacier Peak - Tephrochronology 3213.0 m</div>`)[0];
+            popup_f4aa49d96a53497d9641ab848baa49bc.setContent(html_e59bbf0ca637461fad5d8eb6bdaf62e5);
+        
+
+        marker_1387597277584ac2a147feedba7d19fe.bindPopup(popup_f4aa49d96a53497d9641ab848baa49bc)
+        ;
+
+        
+    
+    
+            var marker_2ed08eafbdf5485abda261842db4a42d = L.marker(
+                [46.8698006, -121.7509995],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_7658130117794d66ba07d68bc09f0a38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ed08eafbdf5485abda261842db4a42d.setIcon(icon_7658130117794d66ba07d68bc09f0a38);
+        
+    
+        var popup_e75e7441e1a34f0eb3943e4a7fd17626 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_958234bf0c324c78b415d9e51a0d6159 = $(`<div id="html_958234bf0c324c78b415d9e51a0d6159" style="width: 100.0%; height: 100.0%;">Rainier - Dendrochronology 4392.0 m</div>`)[0];
+            popup_e75e7441e1a34f0eb3943e4a7fd17626.setContent(html_958234bf0c324c78b415d9e51a0d6159);
+        
+
+        marker_2ed08eafbdf5485abda261842db4a42d.bindPopup(popup_e75e7441e1a34f0eb3943e4a7fd17626)
+        ;
+
+        
+    
+    
+            var marker_9b854578e2e44ecdbd39c9cd12ddaeb0 = L.marker(
+                [46.1997986, -122.1809998],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_b3525cd06e0c4cadb2fce7a19e533d99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9b854578e2e44ecdbd39c9cd12ddaeb0.setIcon(icon_b3525cd06e0c4cadb2fce7a19e533d99);
+        
+    
+        var popup_c7cedd3f876b4347a0a46eb6aaa5315b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b885e55d01584ce7ab2d1e306bb96d77 = $(`<div id="html_b885e55d01584ce7ab2d1e306bb96d77" style="width: 100.0%; height: 100.0%;">St. Helens - Historical 2549.0 m</div>`)[0];
+            popup_c7cedd3f876b4347a0a46eb6aaa5315b.setContent(html_b885e55d01584ce7ab2d1e306bb96d77);
+        
+
+        marker_9b854578e2e44ecdbd39c9cd12ddaeb0.bindPopup(popup_c7cedd3f876b4347a0a46eb6aaa5315b)
+        ;
+
+        
+    
+    
+            var marker_25adf6b4d20b4a7a98835493e26724ff = L.marker(
+                [46.20579910000001, -121.4909973],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_dc5562645ed04e9888905c11f5896e4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25adf6b4d20b4a7a98835493e26724ff.setIcon(icon_dc5562645ed04e9888905c11f5896e4f);
+        
+    
+        var popup_af02a0dc03df48ed91da4599255124f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c24fa043101747058a88fafa724ccf2b = $(`<div id="html_c24fa043101747058a88fafa724ccf2b" style="width: 100.0%; height: 100.0%;">Adams - Tephrochronology 3742.0 m</div>`)[0];
+            popup_af02a0dc03df48ed91da4599255124f7.setContent(html_c24fa043101747058a88fafa724ccf2b);
+        
+
+        marker_25adf6b4d20b4a7a98835493e26724ff.bindPopup(popup_af02a0dc03df48ed91da4599255124f7)
+        ;
+
+        
+    
+    
+            var marker_171616d54be0434b8e3669378491a6e9 = L.marker(
+                [45.8797989, -122.0810013],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_8d3f017648f543dd9a25c0e958a28bdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_171616d54be0434b8e3669378491a6e9.setIcon(icon_8d3f017648f543dd9a25c0e958a28bdd);
+        
+    
+        var popup_bf60ca63a16c453fb8e8e54ab6ad55b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c76f4b61ccf64a859765c699b86d1bd1 = $(`<div id="html_c76f4b61ccf64a859765c699b86d1bd1" style="width: 100.0%; height: 100.0%;">West Crater - Radiocarbon 1329.0 m</div>`)[0];
+            popup_bf60ca63a16c453fb8e8e54ab6ad55b8.setContent(html_c76f4b61ccf64a859765c699b86d1bd1);
+        
+
+        marker_171616d54be0434b8e3669378491a6e9.bindPopup(popup_bf60ca63a16c453fb8e8e54ab6ad55b8)
+        ;
+
+        
+    
+    
+            var marker_24fab3f7425940fcbdfbc9bd8e0f6c27 = L.marker(
+                [45.929798100000006, -121.8209991],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_c57fe97c49394a03a6b9263c2f065072 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_24fab3f7425940fcbdfbc9bd8e0f6c27.setIcon(icon_c57fe97c49394a03a6b9263c2f065072);
+        
+    
+        var popup_643df05366e64674bb8f4e179b1b1caa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c6406410c7f4e99a6384d9278de0932 = $(`<div id="html_7c6406410c7f4e99a6384d9278de0932" style="width: 100.0%; height: 100.0%;">Indian Heaven - Radiocarbon 1806.0 m</div>`)[0];
+            popup_643df05366e64674bb8f4e179b1b1caa.setContent(html_7c6406410c7f4e99a6384d9278de0932);
+        
+
+        marker_24fab3f7425940fcbdfbc9bd8e0f6c27.bindPopup(popup_643df05366e64674bb8f4e179b1b1caa)
+        ;
+
+        
+    
+    
+            var marker_b2cfe434c79c4fa6b95a03727fa1e92f = L.marker(
+                [45.3737984, -121.6910019],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_ac73eaf8a24a47a2adb0a0d08e19c803 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b2cfe434c79c4fa6b95a03727fa1e92f.setIcon(icon_ac73eaf8a24a47a2adb0a0d08e19c803);
+        
+    
+        var popup_4ce62ea76cdf4bc8bf24f394526df432 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edf74bccec794e86aacf04b49bbc013e = $(`<div id="html_edf74bccec794e86aacf04b49bbc013e" style="width: 100.0%; height: 100.0%;">Hood - Historical 3426.0 m</div>`)[0];
+            popup_4ce62ea76cdf4bc8bf24f394526df432.setContent(html_edf74bccec794e86aacf04b49bbc013e);
+        
+
+        marker_b2cfe434c79c4fa6b95a03727fa1e92f.bindPopup(popup_4ce62ea76cdf4bc8bf24f394526df432)
+        ;
+
+        
+    
+    
+            var marker_12350850c5b64427b30006aba55dcac8 = L.marker(
+                [44.691799200000005, -121.8010025],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_3dd5f742862d445ebb3e57f7e95215ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12350850c5b64427b30006aba55dcac8.setIcon(icon_3dd5f742862d445ebb3e57f7e95215ce);
+        
+    
+        var popup_086cdcffddba4620a8ca660a269fd02d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52560dfd819b45618ca7a74edca4005e = $(`<div id="html_52560dfd819b45618ca7a74edca4005e" style="width: 100.0%; height: 100.0%;">Jefferson - Varve Count 3199.0 m</div>`)[0];
+            popup_086cdcffddba4620a8ca660a269fd02d.setContent(html_52560dfd819b45618ca7a74edca4005e);
+        
+
+        marker_12350850c5b64427b30006aba55dcac8.bindPopup(popup_086cdcffddba4620a8ca660a269fd02d)
+        ;
+
+        
+    
+    
+            var marker_86a6623790aa4c76b7f804cf8100a742 = L.marker(
+                [44.4197998, -121.7710037],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_740f146989a34ec4bbad5f525624bd6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_86a6623790aa4c76b7f804cf8100a742.setIcon(icon_740f146989a34ec4bbad5f525624bd6a);
+        
+    
+        var popup_83f12985fd4d4b6bb7b41ddb2a40196d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efcb4177eeb940da8958cd7748aa55fe = $(`<div id="html_efcb4177eeb940da8958cd7748aa55fe" style="width: 100.0%; height: 100.0%;">Blue Lake Crater - Radiocarbon 1230.0 m</div>`)[0];
+            popup_83f12985fd4d4b6bb7b41ddb2a40196d.setContent(html_efcb4177eeb940da8958cd7748aa55fe);
+        
+
+        marker_86a6623790aa4c76b7f804cf8100a742.bindPopup(popup_83f12985fd4d4b6bb7b41ddb2a40196d)
+        ;
+
+        
+    
+    
+            var marker_b0f6e4c880194f578074e9c387b19193 = L.marker(
+                [44.3797989, -121.9309998],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_1efe9529414740fa98958793dfc84d5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0f6e4c880194f578074e9c387b19193.setIcon(icon_1efe9529414740fa98958793dfc84d5e);
+        
+    
+        var popup_324b2970daf84f5e8ed8f5bf4bf50c41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df403d5ecaaf435980093a8fbc75f684 = $(`<div id="html_df403d5ecaaf435980093a8fbc75f684" style="width: 100.0%; height: 100.0%;">Sand Mountain Field - Radiocarbon 1664.0 m</div>`)[0];
+            popup_324b2970daf84f5e8ed8f5bf4bf50c41.setContent(html_df403d5ecaaf435980093a8fbc75f684);
+        
+
+        marker_b0f6e4c880194f578074e9c387b19193.bindPopup(popup_324b2970daf84f5e8ed8f5bf4bf50c41)
+        ;
+
+        
+    
+    
+            var marker_2d31675f30ee4e448876836e7cd30015 = L.marker(
+                [44.331798600000006, -121.8310013],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_fc1f56fe0c61467c96ffecdc56a371da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2d31675f30ee4e448876836e7cd30015.setIcon(icon_fc1f56fe0c61467c96ffecdc56a371da);
+        
+    
+        var popup_f76dfdf4ad694cc384c62de1cf6132ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f4a98e250e14ad78324ce56418e0e3a = $(`<div id="html_8f4a98e250e14ad78324ce56418e0e3a" style="width: 100.0%; height: 100.0%;">Washington - Radiocarbon 2376.0 m</div>`)[0];
+            popup_f76dfdf4ad694cc384c62de1cf6132ef.setContent(html_8f4a98e250e14ad78324ce56418e0e3a);
+        
+
+        marker_2d31675f30ee4e448876836e7cd30015.bindPopup(popup_f76dfdf4ad694cc384c62de1cf6132ef)
+        ;
+
+        
+    
+    
+            var marker_c19072e653b040f1967e740be87a609f = L.marker(
+                [44.2848015, -121.8410034],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_a53d2f553b4c4b04ad50ade8b48c9e15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c19072e653b040f1967e740be87a609f.setIcon(icon_a53d2f553b4c4b04ad50ade8b48c9e15);
+        
+    
+        var popup_04b19e1d618b476e9c6d75245dcc1880 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5bc3c7856604e0dbc7294daa8f9ed98 = $(`<div id="html_d5bc3c7856604e0dbc7294daa8f9ed98" style="width: 100.0%; height: 100.0%;">Belknap - Radiocarbon 2095.0 m</div>`)[0];
+            popup_04b19e1d618b476e9c6d75245dcc1880.setContent(html_d5bc3c7856604e0dbc7294daa8f9ed98);
+        
+
+        marker_c19072e653b040f1967e740be87a609f.bindPopup(popup_04b19e1d618b476e9c6d75245dcc1880)
+        ;
+
+        
+    
+    
+            var marker_6231fe2583824c19809600f62039f38e = L.marker(
+                [44.1697998, -121.7710037],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_2765fe62f0b64b43a7494567e28a95e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6231fe2583824c19809600f62039f38e.setIcon(icon_2765fe62f0b64b43a7494567e28a95e4);
+        
+    
+        var popup_5419395cb3194a6599de127b1497ac9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d4321b7e89e4ba5b5fe788d04fa256d = $(`<div id="html_3d4321b7e89e4ba5b5fe788d04fa256d" style="width: 100.0%; height: 100.0%;">North Sister Field - Radiocarbon 3074.0 m</div>`)[0];
+            popup_5419395cb3194a6599de127b1497ac9d.setContent(html_3d4321b7e89e4ba5b5fe788d04fa256d);
+        
+
+        marker_6231fe2583824c19809600f62039f38e.bindPopup(popup_5419395cb3194a6599de127b1497ac9d)
+        ;
+
+        
+    
+    
+            var marker_624fcb530e064650a1e073f2181c08b7 = L.marker(
+                [44.099800099999996, -121.7710037],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_16094776d7a14ebf902026068b3e7805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_624fcb530e064650a1e073f2181c08b7.setIcon(icon_16094776d7a14ebf902026068b3e7805);
+        
+    
+        var popup_d1dac07ff6c6488bb0652e8ea855f125 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb4ef2410f184b468d2551c57058de88 = $(`<div id="html_fb4ef2410f184b468d2551c57058de88" style="width: 100.0%; height: 100.0%;">South Sister - Radiocarbon 3157.0 m</div>`)[0];
+            popup_d1dac07ff6c6488bb0652e8ea855f125.setContent(html_fb4ef2410f184b468d2551c57058de88);
+        
+
+        marker_624fcb530e064650a1e073f2181c08b7.bindPopup(popup_d1dac07ff6c6488bb0652e8ea855f125)
+        ;
+
+        
+    
+    
+            var marker_d38772495d45460097fed438d4104f97 = L.marker(
+                [43.978801700000005, -121.6809998],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_ec21747274a9469ebd2162d4dc2c3378 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d38772495d45460097fed438d4104f97.setIcon(icon_ec21747274a9469ebd2162d4dc2c3378);
+        
+    
+        var popup_f769abb4995a491f90798736d4b60f3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc40500417ec4341be02e314a7354ace = $(`<div id="html_dc40500417ec4341be02e314a7354ace" style="width: 100.0%; height: 100.0%;">Bachelor - Tephrochronology 2763.0 m</div>`)[0];
+            popup_f769abb4995a491f90798736d4b60f3e.setContent(html_dc40500417ec4341be02e314a7354ace);
+        
+
+        marker_d38772495d45460097fed438d4104f97.bindPopup(popup_f769abb4995a491f90798736d4b60f3e)
+        ;
+
+        
+    
+    
+            var marker_aa1edb263c6f4a20a34cced7b72cf52a = L.marker(
+                [43.7218018, -121.2210007],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_ba99637dc4584575bb62d5f048644281 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_aa1edb263c6f4a20a34cced7b72cf52a.setIcon(icon_ba99637dc4584575bb62d5f048644281);
+        
+    
+        var popup_b673a080a4d249238f792492730a3e27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dcb263da48f461f81d0ae505c06206e = $(`<div id="html_6dcb263da48f461f81d0ae505c06206e" style="width: 100.0%; height: 100.0%;">Newberry Volcano - Radiocarbon 2434.0 m</div>`)[0];
+            popup_b673a080a4d249238f792492730a3e27.setContent(html_6dcb263da48f461f81d0ae505c06206e);
+        
+
+        marker_aa1edb263c6f4a20a34cced7b72cf52a.bindPopup(popup_b673a080a4d249238f792492730a3e27)
+        ;
+
+        
+    
+    
+            var marker_81f536f4aa3c47b0a1343c5d4fa1a68d = L.marker(
+                [43.569801299999995, -121.8209991],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_64b44a1b1d2a4a249f3d279305d137cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_81f536f4aa3c47b0a1343c5d4fa1a68d.setIcon(icon_64b44a1b1d2a4a249f3d279305d137cd);
+        
+    
+        var popup_7315dcd4e03c4279b3b35e63bf0b4d00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa22ffd7bb0e474db47b4fc661302151 = $(`<div id="html_fa22ffd7bb0e474db47b4fc661302151" style="width: 100.0%; height: 100.0%;">Davis Lake - Radiocarbon 2163.0 m</div>`)[0];
+            popup_7315dcd4e03c4279b3b35e63bf0b4d00.setContent(html_fa22ffd7bb0e474db47b4fc661302151);
+        
+
+        marker_81f536f4aa3c47b0a1343c5d4fa1a68d.bindPopup(popup_7315dcd4e03c4279b3b35e63bf0b4d00)
+        ;
+
+        
+    
+    
+            var marker_eefc7571d1324ce78be6a5f71e9841e5 = L.marker(
+                [43.5119019, -120.8610001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_83e2d17379914ebba6b0d3c7410d99b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eefc7571d1324ce78be6a5f71e9841e5.setIcon(icon_83e2d17379914ebba6b0d3c7410d99b3);
+        
+    
+        var popup_9652ea2371fe4eb6becd3be115fc884f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db1bded7377b44a685a41ab8cd9c37dd = $(`<div id="html_db1bded7377b44a685a41ab8cd9c37dd" style="width: 100.0%; height: 100.0%;">Devils Garden - Holocene? 1698.0 m</div>`)[0];
+            popup_9652ea2371fe4eb6becd3be115fc884f.setContent(html_db1bded7377b44a685a41ab8cd9c37dd);
+        
+
+        marker_eefc7571d1324ce78be6a5f71e9841e5.bindPopup(popup_9652ea2371fe4eb6becd3be115fc884f)
+        ;
+
+        
+    
+    
+            var marker_22537b978fb04286abd080118566c634 = L.marker(
+                [43.240798999999996, -122.10099790000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_3d9166b45c90484eadcecfae392e1823 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22537b978fb04286abd080118566c634.setIcon(icon_3d9166b45c90484eadcecfae392e1823);
+        
+    
+        var popup_8ca84b95c43143ccaa5d5a968d95e236 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfc535d596164b3a9dca748bfb405f91 = $(`<div id="html_dfc535d596164b3a9dca748bfb405f91" style="width: 100.0%; height: 100.0%;">Cinnamon Butte - Holocene? 1956.0 m</div>`)[0];
+            popup_8ca84b95c43143ccaa5d5a968d95e236.setContent(html_dfc535d596164b3a9dca748bfb405f91);
+        
+
+        marker_22537b978fb04286abd080118566c634.bindPopup(popup_8ca84b95c43143ccaa5d5a968d95e236)
+        ;
+
+        
+    
+    
+            var marker_96b6af3a8cd448daaccd640fc8e85e46 = L.marker(
+                [43.471900899999994, -120.7509995],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_177ef9c92c9e41679260f8476f196800 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96b6af3a8cd448daaccd640fc8e85e46.setIcon(icon_177ef9c92c9e41679260f8476f196800);
+        
+    
+        var popup_79296c4ff0184fe2afcceab4698d2001 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da2271a693b645f1a1dec85a9880c449 = $(`<div id="html_da2271a693b645f1a1dec85a9880c449" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field - Holocene? 1711.0 m</div>`)[0];
+            popup_79296c4ff0184fe2afcceab4698d2001.setContent(html_da2271a693b645f1a1dec85a9880c449);
+        
+
+        marker_96b6af3a8cd448daaccd640fc8e85e46.bindPopup(popup_79296c4ff0184fe2afcceab4698d2001)
+        ;
+
+        
+    
+    
+            var marker_328c43f1c15d490583e3838027e748fe = L.marker(
+                [43.3609009, -120.6610031],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_52a3fc907d204da5b761625e74eab2aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_328c43f1c15d490583e3838027e748fe.setIcon(icon_52a3fc907d204da5b761625e74eab2aa);
+        
+    
+        var popup_9a86a1330bd14a71b343693b9f41d46e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e4cf75e14f447dea1138cf185294f0c = $(`<div id="html_2e4cf75e14f447dea1138cf185294f0c" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field - Holocene? 1501.0 m</div>`)[0];
+            popup_9a86a1330bd14a71b343693b9f41d46e.setContent(html_2e4cf75e14f447dea1138cf185294f0c);
+        
+
+        marker_328c43f1c15d490583e3838027e748fe.bindPopup(popup_9a86a1330bd14a71b343693b9f41d46e)
+        ;
+
+        
+    
+    
+            var marker_9c0c9b0643e849d69c0ed08a86634477 = L.marker(
+                [42.9299011, -122.1210022],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_d0549d8e397c4995a28330916513ee2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9c0c9b0643e849d69c0ed08a86634477.setIcon(icon_d0549d8e397c4995a28330916513ee2c);
+        
+    
+        var popup_306c8d0a66de42a7b318da00dd9cdfae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69cbe62d259246cf9363c81409805e09 = $(`<div id="html_69cbe62d259246cf9363c81409805e09" style="width: 100.0%; height: 100.0%;">Crater Lake - Radiocarbon 2487.0 m</div>`)[0];
+            popup_306c8d0a66de42a7b318da00dd9cdfae.setContent(html_69cbe62d259246cf9363c81409805e09);
+        
+
+        marker_9c0c9b0643e849d69c0ed08a86634477.bindPopup(popup_306c8d0a66de42a7b318da00dd9cdfae)
+        ;
+
+        
+    
+    
+            var marker_b653bb03d64a46d2aff94653800e5beb = L.marker(
+                [44.4299011, -110.6709976],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_7ef80b0ce99d4b4fad6964be5e4edaa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b653bb03d64a46d2aff94653800e5beb.setIcon(icon_7ef80b0ce99d4b4fad6964be5e4edaa4);
+        
+    
+        var popup_f8148037e06d47809575110382943d42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f390ce42fbb437ca48d183a8f6ee308 = $(`<div id="html_4f390ce42fbb437ca48d183a8f6ee308" style="width: 100.0%; height: 100.0%;">Yellowstone - Tephrochronology 2805.0 m</div>`)[0];
+            popup_f8148037e06d47809575110382943d42.setContent(html_4f390ce42fbb437ca48d183a8f6ee308);
+        
+
+        marker_b653bb03d64a46d2aff94653800e5beb.bindPopup(popup_f8148037e06d47809575110382943d42)
+        ;
+
+        
+    
+    
+            var marker_82f76549bb4645efa407e7c511ccc58a = L.marker(
+                [43.0998993, -118.7509995],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_47b196b4ffe34d8994a1602db45a0b9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_82f76549bb4645efa407e7c511ccc58a.setIcon(icon_47b196b4ffe34d8994a1602db45a0b9d);
+        
+    
+        var popup_c0acd725f1214a5f91c64b73f604f51f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7bb162b437b4686a946bafcf0e84393 = $(`<div id="html_f7bb162b437b4686a946bafcf0e84393" style="width: 100.0%; height: 100.0%;">Diamond Craters - Holocene? 1435.0 m</div>`)[0];
+            popup_c0acd725f1214a5f91c64b73f604f51f.setContent(html_f7bb162b437b4686a946bafcf0e84393);
+        
+
+        marker_82f76549bb4645efa407e7c511ccc58a.bindPopup(popup_c0acd725f1214a5f91c64b73f604f51f)
+        ;
+
+        
+    
+    
+            var marker_2050bf4174eb4f0d9479c82d33180996 = L.marker(
+                [43.1498985, -117.4710007],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_45443ad069b34fd395392b9ad436d3ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2050bf4174eb4f0d9479c82d33180996.setIcon(icon_45443ad069b34fd395392b9ad436d3ab);
+        
+    
+        var popup_ff4b2ccb0a30448aafee15c1fc7c2d92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_899eb5c18be04c3181fb572aa0e6e09f = $(`<div id="html_899eb5c18be04c3181fb572aa0e6e09f" style="width: 100.0%; height: 100.0%;">Jordan Craters - Radiocarbon 1473.0 m</div>`)[0];
+            popup_ff4b2ccb0a30448aafee15c1fc7c2d92.setContent(html_899eb5c18be04c3181fb572aa0e6e09f);
+        
+
+        marker_2050bf4174eb4f0d9479c82d33180996.bindPopup(popup_ff4b2ccb0a30448aafee15c1fc7c2d92)
+        ;
+
+        
+    
+    
+            var marker_cd6b803028534d3d9581c72af1bb7a8e = L.marker(
+                [42.9999008, -117.8010025],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_7b4ba26b5ae84bb89d37f75fa6d22c49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd6b803028534d3d9581c72af1bb7a8e.setIcon(icon_7b4ba26b5ae84bb89d37f75fa6d22c49);
+        
+    
+        var popup_ab8acf48d5c54c259bed50be69e8fc7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd6173eefed04f95a3ee750c382d9d71 = $(`<div id="html_cd6173eefed04f95a3ee750c382d9d71" style="width: 100.0%; height: 100.0%;">Saddle Butte - Holocene? 1700.0 m</div>`)[0];
+            popup_ab8acf48d5c54c259bed50be69e8fc7a.setContent(html_cd6173eefed04f95a3ee750c382d9d71);
+        
+
+        marker_cd6b803028534d3d9581c72af1bb7a8e.bindPopup(popup_ab8acf48d5c54c259bed50be69e8fc7a)
+        ;
+
+        
+    
+    
+            var marker_03587c80e6144d4e91f51a5528f6d8be = L.marker(
+                [43.419899, -113.5009995],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_74cca97baf864846b9e6b3cf9d46f2dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_03587c80e6144d4e91f51a5528f6d8be.setIcon(icon_74cca97baf864846b9e6b3cf9d46f2dc);
+        
+    
+        var popup_6ec851d7fc96485a886deea31ca09e28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4daec9ead2249c8931e2ab7b9acea93 = $(`<div id="html_f4daec9ead2249c8931e2ab7b9acea93" style="width: 100.0%; height: 100.0%;">Craters of the Moon - Radiocarbon 2005.0 m</div>`)[0];
+            popup_6ec851d7fc96485a886deea31ca09e28.setContent(html_f4daec9ead2249c8931e2ab7b9acea93);
+        
+
+        marker_03587c80e6144d4e91f51a5528f6d8be.bindPopup(popup_6ec851d7fc96485a886deea31ca09e28)
+        ;
+
+        
+    
+    
+            var marker_9d6c3eb0668e42199bf591fddfeb827a = L.marker(
+                [43.4999008, -112.45099640000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_dc9794298bc148a5928b9d822e1f8596 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9d6c3eb0668e42199bf591fddfeb827a.setIcon(icon_dc9794298bc148a5928b9d822e1f8596);
+        
+    
+        var popup_59738e5c08a1483b9e330e3a5a2c47cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad6d969f86e646868411e37010348146 = $(`<div id="html_ad6d969f86e646868411e37010348146" style="width: 100.0%; height: 100.0%;">Hell's Half Acre - Radiocarbon 1631.0 m</div>`)[0];
+            popup_59738e5c08a1483b9e330e3a5a2c47cf.setContent(html_ad6d969f86e646868411e37010348146);
+        
+
+        marker_9d6c3eb0668e42199bf591fddfeb827a.bindPopup(popup_59738e5c08a1483b9e330e3a5a2c47cf)
+        ;
+
+        
+    
+    
+            var marker_1b9f5b7f9a2041dfb214cace79da27ef = L.marker(
+                [43.1799011, -114.35099790000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_9287ed59c83d456691bc6731a5b296df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b9f5b7f9a2041dfb214cace79da27ef.setIcon(icon_9287ed59c83d456691bc6731a5b296df);
+        
+    
+        var popup_1e2c8019447545bb92b947ee23511ad4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23e9f26c714e4caabbb68631dec40d48 = $(`<div id="html_23e9f26c714e4caabbb68631dec40d48" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field - Holocene 1478.0 m</div>`)[0];
+            popup_1e2c8019447545bb92b947ee23511ad4.setContent(html_23e9f26c714e4caabbb68631dec40d48);
+        
+
+        marker_1b9f5b7f9a2041dfb214cace79da27ef.bindPopup(popup_1e2c8019447545bb92b947ee23511ad4)
+        ;
+
+        
+    
+    
+            var marker_e2e292fa8438441683c842d2e11f887e = L.marker(
+                [42.605899799999996, -117.5810013],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_72f8a0866786425eb7083e5895a2fc6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e2e292fa8438441683c842d2e11f887e.setIcon(icon_72f8a0866786425eb7083e5895a2fc6f);
+        
+    
+        var popup_e5d7c39675104493a7cac7b9c729af5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45d57ee9ebbf4c5dbb1e5a2278052651 = $(`<div id="html_45d57ee9ebbf4c5dbb1e5a2278052651" style="width: 100.0%; height: 100.0%;">Jackies Butte - Holocene? 1418.0 m</div>`)[0];
+            popup_e5d7c39675104493a7cac7b9c729af5b.setContent(html_45d57ee9ebbf4c5dbb1e5a2278052651);
+        
+
+        marker_e2e292fa8438441683c842d2e11f887e.bindPopup(popup_e5d7c39675104493a7cac7b9c729af5b)
+        ;
+
+        
+    
+    
+            var marker_ce3307e9e5d54fdd9793f2e5ce1d0252 = L.marker(
+                [41.579898799999995, -121.5709991],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_e5e5bbeb5dd14160a8f0c6612f3ccf87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ce3307e9e5d54fdd9793f2e5ce1d0252.setIcon(icon_e5e5bbeb5dd14160a8f0c6612f3ccf87);
+        
+    
+        var popup_0fc1203f1c0d4d7289ebb5596ab8ca68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2daef9d59f74f5fb46c65d5b94fce1e = $(`<div id="html_b2daef9d59f74f5fb46c65d5b94fce1e" style="width: 100.0%; height: 100.0%;">Medicine Lake - Radiocarbon 2412.0 m</div>`)[0];
+            popup_0fc1203f1c0d4d7289ebb5596ab8ca68.setContent(html_b2daef9d59f74f5fb46c65d5b94fce1e);
+        
+
+        marker_ce3307e9e5d54fdd9793f2e5ce1d0252.bindPopup(popup_0fc1203f1c0d4d7289ebb5596ab8ca68)
+        ;
+
+        
+    
+    
+            var marker_170d40f6001f44dd85b4c60098793c4a = L.marker(
+                [42.8799019, -113.2210007],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_dae3bdf246154f359fe2f06b2584463b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_170d40f6001f44dd85b4c60098793c4a.setIcon(icon_dae3bdf246154f359fe2f06b2584463b);
+        
+    
+        var popup_5963677cea194e18ac0278e46972805c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c09936bf92a94b8cbcf123f755a8ebed = $(`<div id="html_c09936bf92a94b8cbcf123f755a8ebed" style="width: 100.0%; height: 100.0%;">Wapi Lava Field - Radiocarbon 1604.0 m</div>`)[0];
+            popup_5963677cea194e18ac0278e46972805c.setContent(html_c09936bf92a94b8cbcf123f755a8ebed);
+        
+
+        marker_170d40f6001f44dd85b4c60098793c4a.bindPopup(popup_5963677cea194e18ac0278e46972805c)
+        ;
+
+        
+    
+    
+            var marker_18e81a26e0634299b2f9552c6e0f05b3 = L.marker(
+                [41.419899, -122.20099640000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_1f50e7d2ea3c48f7bfea6749a8e11bf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_18e81a26e0634299b2f9552c6e0f05b3.setIcon(icon_1f50e7d2ea3c48f7bfea6749a8e11bf5);
+        
+    
+        var popup_36bd8933d2804e6dbe8ff820ac1a91f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73b2c089a74f449e9f411312108c40d1 = $(`<div id="html_73b2c089a74f449e9f411312108c40d1" style="width: 100.0%; height: 100.0%;">Shasta - Historical 4317.0 m</div>`)[0];
+            popup_36bd8933d2804e6dbe8ff820ac1a91f7.setContent(html_73b2c089a74f449e9f411312108c40d1);
+        
+
+        marker_18e81a26e0634299b2f9552c6e0f05b3.bindPopup(popup_36bd8933d2804e6dbe8ff820ac1a91f7)
+        ;
+
+        
+    
+    
+            var marker_c84fd61b9f554323b48b9ffe34eda366 = L.marker(
+                [41.1778984, -121.4410019],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_dd219cdfbfc14300b3f1a5f90d7b2663 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c84fd61b9f554323b48b9ffe34eda366.setIcon(icon_dd219cdfbfc14300b3f1a5f90d7b2663);
+        
+    
+        var popup_c8e661d7897d482f9dfe331643a557c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3c24ac5f9b64973953c231795173400 = $(`<div id="html_d3c24ac5f9b64973953c231795173400" style="width: 100.0%; height: 100.0%;">Brushy Butte - Holocene? 1174.0 m</div>`)[0];
+            popup_c8e661d7897d482f9dfe331643a557c2.setContent(html_d3c24ac5f9b64973953c231795173400);
+        
+
+        marker_c84fd61b9f554323b48b9ffe34eda366.bindPopup(popup_c8e661d7897d482f9dfe331643a557c2)
+        ;
+
+        
+    
+    
+            var marker_2b0dddf607d7428984fd4876a3900ac9 = L.marker(
+                [40.954898799999995, -121.3610001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_385e2ba34eaa45c89885105dae497131 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2b0dddf607d7428984fd4876a3900ac9.setIcon(icon_385e2ba34eaa45c89885105dae497131);
+        
+    
+        var popup_23d54fbb22ce4abd8b1717f2fbddc62b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_608476f0ff2f42d6960625d290a4ffb4 = $(`<div id="html_608476f0ff2f42d6960625d290a4ffb4" style="width: 100.0%; height: 100.0%;">Big Cave - Holocene? 1259.0 m</div>`)[0];
+            popup_23d54fbb22ce4abd8b1717f2fbddc62b.setContent(html_608476f0ff2f42d6960625d290a4ffb4);
+        
+
+        marker_2b0dddf607d7428984fd4876a3900ac9.bindPopup(popup_23d54fbb22ce4abd8b1717f2fbddc62b)
+        ;
+
+        
+    
+    
+            var marker_4fd8155bc21c4ac485c1c41547664cfa = L.marker(
+                [40.77989960000001, -121.60099790000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_2978072ef7d84c35bab190eee38f7ce7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fd8155bc21c4ac485c1c41547664cfa.setIcon(icon_2978072ef7d84c35bab190eee38f7ce7);
+        
+    
+        var popup_508cbb9f929240068f502451b9d13dd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b79576c4b11143a686977e99bc95ea4f = $(`<div id="html_b79576c4b11143a686977e99bc95ea4f" style="width: 100.0%; height: 100.0%;">Twin Buttes - Holocene? 1631.0 m</div>`)[0];
+            popup_508cbb9f929240068f502451b9d13dd0.setContent(html_b79576c4b11143a686977e99bc95ea4f);
+        
+
+        marker_4fd8155bc21c4ac485c1c41547664cfa.bindPopup(popup_508cbb9f929240068f502451b9d13dd0)
+        ;
+
+        
+    
+    
+            var marker_02e1099f53f649c0b859d357e5a9e2fb = L.marker(
+                [40.6799011, -121.5510025],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_79db11aa9f574e9fa688e11bdefb8cea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_02e1099f53f649c0b859d357e5a9e2fb.setIcon(icon_79db11aa9f574e9fa688e11bdefb8cea);
+        
+    
+        var popup_a87cc9ea43d0458dbbfb6d28bfeccf46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b40c6fec4ed747ad9650f8b93fe4a428 = $(`<div id="html_b40c6fec4ed747ad9650f8b93fe4a428" style="width: 100.0%; height: 100.0%;">Tumble Buttes - Holocene? 2191.0 m</div>`)[0];
+            popup_a87cc9ea43d0458dbbfb6d28bfeccf46.setContent(html_b40c6fec4ed747ad9650f8b93fe4a428);
+        
+
+        marker_02e1099f53f649c0b859d357e5a9e2fb.bindPopup(popup_a87cc9ea43d0458dbbfb6d28bfeccf46)
+        ;
+
+        
+    
+    
+            var marker_190da30b528e45cca7ef4667a90a94cb = L.marker(
+                [40.6299019, -120.8310013],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_2113be75fbb345d493c684f7079b68df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_190da30b528e45cca7ef4667a90a94cb.setIcon(icon_2113be75fbb345d493c684f7079b68df);
+        
+    
+        var popup_b1c67c012d6249918cc6ce47458efd8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9785eb35f6904f669f0db78076f82402 = $(`<div id="html_9785eb35f6904f669f0db78076f82402" style="width: 100.0%; height: 100.0%;">Eagle Lake Field - Holocene? 1652.0 m</div>`)[0];
+            popup_b1c67c012d6249918cc6ce47458efd8c.setContent(html_9785eb35f6904f669f0db78076f82402);
+        
+
+        marker_190da30b528e45cca7ef4667a90a94cb.bindPopup(popup_b1c67c012d6249918cc6ce47458efd8c)
+        ;
+
+        
+    
+    
+            var marker_a06975d0dff644af9be301110b03790c = L.marker(
+                [40.491901399999996, -121.5009995],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_db91dabe41104fc9aa09b81c36773159 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a06975d0dff644af9be301110b03790c.setIcon(icon_db91dabe41104fc9aa09b81c36773159);
+        
+    
+        var popup_00b5ca966a8440299b20cffe5e6690fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43550f0db71e4d2285acab680a16e575 = $(`<div id="html_43550f0db71e4d2285acab680a16e575" style="width: 100.0%; height: 100.0%;">Lassen Volc Center - Historical 3187.0 m</div>`)[0];
+            popup_00b5ca966a8440299b20cffe5e6690fe.setContent(html_43550f0db71e4d2285acab680a16e575);
+        
+
+        marker_a06975d0dff644af9be301110b03790c.bindPopup(popup_00b5ca966a8440299b20cffe5e6690fe)
+        ;
+
+        
+    
+    
+            var marker_ce22528b540e4a7b9fd14d6c38eca122 = L.marker(
+                [38.9698982, -122.7710037],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_4df9684920e4473aa96cc77e1f62acb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce22528b540e4a7b9fd14d6c38eca122.setIcon(icon_4df9684920e4473aa96cc77e1f62acb9);
+        
+    
+        var popup_6ba42f9b3ec2444bad4fdb7c93058361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a1c0e75c7234f4db0e5d51c0109b3ef = $(`<div id="html_6a1c0e75c7234f4db0e5d51c0109b3ef" style="width: 100.0%; height: 100.0%;">Clear Lake - Holocene 1439.0 m</div>`)[0];
+            popup_6ba42f9b3ec2444bad4fdb7c93058361.setContent(html_6a1c0e75c7234f4db0e5d51c0109b3ef);
+        
+
+        marker_ce22528b540e4a7b9fd14d6c38eca122.bindPopup(popup_6ba42f9b3ec2444bad4fdb7c93058361)
+        ;
+
+        
+    
+    
+            var marker_4fdf2cc1352542ceaea45ae17c469651 = L.marker(
+                [39.3749008, -119.7210007],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_c87806635f8d42a8a5f6082554a1aa0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fdf2cc1352542ceaea45ae17c469651.setIcon(icon_c87806635f8d42a8a5f6082554a1aa0a);
+        
+    
+        var popup_edb3b8b61d884d94bcc8c231be8348c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_998282a73301465aac399ab3c9f3ada8 = $(`<div id="html_998282a73301465aac399ab3c9f3ada8" style="width: 100.0%; height: 100.0%;">Steamboat Springs - Pleistocene-Fumarolic 1415.0 m</div>`)[0];
+            popup_edb3b8b61d884d94bcc8c231be8348c8.setContent(html_998282a73301465aac399ab3c9f3ada8);
+        
+
+        marker_4fdf2cc1352542ceaea45ae17c469651.bindPopup(popup_edb3b8b61d884d94bcc8c231be8348c8)
+        ;
+
+        
+    
+    
+            var marker_01bcf02217ae403bbb805c26f14273d5 = L.marker(
+                [39.6500015, -107.03099820000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_0208e2e0b9934711af2d6e4f2222e187 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_01bcf02217ae403bbb805c26f14273d5.setIcon(icon_0208e2e0b9934711af2d6e4f2222e187);
+        
+    
+        var popup_3782a6b444ef47d9888db6517da68a6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a37cb2b296643318f2f8e5460002279 = $(`<div id="html_9a37cb2b296643318f2f8e5460002279" style="width: 100.0%; height: 100.0%;">Dotsero - Radiocarbon 2230.0 m</div>`)[0];
+            popup_3782a6b444ef47d9888db6517da68a6a.setContent(html_9a37cb2b296643318f2f8e5460002279);
+        
+
+        marker_01bcf02217ae403bbb805c26f14273d5.bindPopup(popup_3782a6b444ef47d9888db6517da68a6a)
+        ;
+
+        
+    
+    
+            var marker_3e6534b2c2154cd0b854e4b755ec070d = L.marker(
+                [37.9999008, -119.03099820000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_1c50322851fb4777acff92eed1461f24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3e6534b2c2154cd0b854e4b755ec070d.setIcon(icon_1c50322851fb4777acff92eed1461f24);
+        
+    
+        var popup_2730ff80410242a8b6feb438f09099be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ddbb588c1444382bf70f96b6cdb79af = $(`<div id="html_0ddbb588c1444382bf70f96b6cdb79af" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field - Tephrochronology 2121.0 m</div>`)[0];
+            popup_2730ff80410242a8b6feb438f09099be.setContent(html_0ddbb588c1444382bf70f96b6cdb79af);
+        
+
+        marker_3e6534b2c2154cd0b854e4b755ec070d.bindPopup(popup_2730ff80410242a8b6feb438f09099be)
+        ;
+
+        
+    
+    
+            var marker_bc603100897c42bd85fe32ddadfb662d = L.marker(
+                [38.970001200000006, -112.5009995],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_861e4d6cf54f4482a466a56c8438761a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc603100897c42bd85fe32ddadfb662d.setIcon(icon_861e4d6cf54f4482a466a56c8438761a);
+        
+    
+        var popup_8d273548585a42cfb70c3847d2e3aa82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bc3bac3c02743fbaf2c043eec42bfef = $(`<div id="html_0bc3bac3c02743fbaf2c043eec42bfef" style="width: 100.0%; height: 100.0%;">Black Rock Desert - Radiocarbon 1800.0 m</div>`)[0];
+            popup_8d273548585a42cfb70c3847d2e3aa82.setContent(html_0bc3bac3c02743fbaf2c043eec42bfef);
+        
+
+        marker_bc603100897c42bd85fe32ddadfb662d.bindPopup(popup_8d273548585a42cfb70c3847d2e3aa82)
+        ;
+
+        
+    
+    
+            var marker_937f9f53af5143d1897b8c589f56dc99 = L.marker(
+                [37.8799019, -119.0009995],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_509b58e581a04ff38a20e155aa360d60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_937f9f53af5143d1897b8c589f56dc99.setIcon(icon_509b58e581a04ff38a20e155aa360d60);
+        
+    
+        var popup_96833e3932fc483a958d482b9f126d15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a4fe7006cb54cd39a56e8a1d3a22025 = $(`<div id="html_0a4fe7006cb54cd39a56e8a1d3a22025" style="width: 100.0%; height: 100.0%;">Mono Craters - Radiocarbon 2796.0 m</div>`)[0];
+            popup_96833e3932fc483a958d482b9f126d15.setContent(html_0a4fe7006cb54cd39a56e8a1d3a22025);
+        
+
+        marker_937f9f53af5143d1897b8c589f56dc99.bindPopup(popup_96833e3932fc483a958d482b9f126d15)
+        ;
+
+        
+    
+    
+            var marker_8c0b56ea95fe40bfa0ca0230054bbd05 = L.marker(
+                [37.6918983, -119.0210037],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_4ac08c09ab6947e182ad7e75b4586fb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8c0b56ea95fe40bfa0ca0230054bbd05.setIcon(icon_4ac08c09ab6947e182ad7e75b4586fb2);
+        
+    
+        var popup_479fda4311154f8285779cd4806ad498 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b97472e3614942cc9027afab103e11f3 = $(`<div id="html_b97472e3614942cc9027afab103e11f3" style="width: 100.0%; height: 100.0%;">Inyo Craters - Radiocarbon 2629.0 m</div>`)[0];
+            popup_479fda4311154f8285779cd4806ad498.setContent(html_b97472e3614942cc9027afab103e11f3);
+        
+
+        marker_8c0b56ea95fe40bfa0ca0230054bbd05.bindPopup(popup_479fda4311154f8285779cd4806ad498)
+        ;
+
+        
+    
+    
+            var marker_30cc0f8b29d64d1e861ad01bb1b1f195 = L.marker(
+                [37.6999016, -118.8710022],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_28df9e68205c4ef08999ded72d9cad46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30cc0f8b29d64d1e861ad01bb1b1f195.setIcon(icon_28df9e68205c4ef08999ded72d9cad46);
+        
+    
+        var popup_340b4984df314678a7ae8ef20ad42600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d35308d54e234086981e7e170f4d10c1 = $(`<div id="html_d35308d54e234086981e7e170f4d10c1" style="width: 100.0%; height: 100.0%;">Long Valley - Pleistocene-Fumarolic 3390.0 m</div>`)[0];
+            popup_340b4984df314678a7ae8ef20ad42600.setContent(html_d35308d54e234086981e7e170f4d10c1);
+        
+
+        marker_30cc0f8b29d64d1e861ad01bb1b1f195.bindPopup(popup_340b4984df314678a7ae8ef20ad42600)
+        ;
+
+        
+    
+    
+            var marker_598f25147b804955963768d9c907ab03 = L.marker(
+                [37.579898799999995, -119.0510025],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_5f781fa588f346a4b10f743cdc1bf797 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_598f25147b804955963768d9c907ab03.setIcon(icon_5f781fa588f346a4b10f743cdc1bf797);
+        
+    
+        var popup_9d1d4ec1e28d435b9e7c492c6717a29b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_307dbcd53ab94721a0458267f70868d1 = $(`<div id="html_307dbcd53ab94721a0458267f70868d1" style="width: 100.0%; height: 100.0%;">Red Cones - Radiocarbon 2748.0 m</div>`)[0];
+            popup_9d1d4ec1e28d435b9e7c492c6717a29b.setContent(html_307dbcd53ab94721a0458267f70868d1);
+        
+
+        marker_598f25147b804955963768d9c907ab03.bindPopup(popup_9d1d4ec1e28d435b9e7c492c6717a29b)
+        ;
+
+        
+    
+    
+            var marker_3530dad22afc44b7a6528441b72cec6a = L.marker(
+                [37.0199013, -117.45099640000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_e65733826af74a58a258e9c53ae1a869 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3530dad22afc44b7a6528441b72cec6a.setIcon(icon_e65733826af74a58a258e9c53ae1a869);
+        
+    
+        var popup_000a5a9e8b504c8888c8faa8fb6fd444 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62de9af579f14384890f447bdb45435b = $(`<div id="html_62de9af579f14384890f447bdb45435b" style="width: 100.0%; height: 100.0%;">Ubehebe Craters - Anthropology 752.0 m</div>`)[0];
+            popup_000a5a9e8b504c8888c8faa8fb6fd444.setContent(html_62de9af579f14384890f447bdb45435b);
+        
+
+        marker_3530dad22afc44b7a6528441b72cec6a.bindPopup(popup_000a5a9e8b504c8888c8faa8fb6fd444)
+        ;
+
+        
+    
+    
+            var marker_67b3690d1ae24e93898b93e0b3c221e6 = L.marker(
+                [37.5800018, -112.6709976],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_66b47063985e4e5f8d2f1dec29d18df3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_67b3690d1ae24e93898b93e0b3c221e6.setIcon(icon_66b47063985e4e5f8d2f1dec29d18df3);
+        
+    
+        var popup_8cf28e6d393147f48aca5978046e18a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0621a2208d28416ca1264577bb2b5ced = $(`<div id="html_0621a2208d28416ca1264577bb2b5ced" style="width: 100.0%; height: 100.0%;">Markagunt Plateau - Dendrochronology 2840.0 m</div>`)[0];
+            popup_8cf28e6d393147f48aca5978046e18a3.setContent(html_0621a2208d28416ca1264577bb2b5ced);
+        
+
+        marker_67b3690d1ae24e93898b93e0b3c221e6.bindPopup(popup_8cf28e6d393147f48aca5978046e18a3)
+        ;
+
+        
+    
+    
+            var marker_36ca180cec3c4bfbab9436001deefbb2 = L.marker(
+                [37.257, -113.6210022],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_1843a56563874a4cb681ee78b1dc7bd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36ca180cec3c4bfbab9436001deefbb2.setIcon(icon_1843a56563874a4cb681ee78b1dc7bd9);
+        
+    
+        var popup_991ad4ffaa79470e8d29a453ab4dfb38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91b65e7596c540aa8cd1f052e19445c7 = $(`<div id="html_91b65e7596c540aa8cd1f052e19445c7" style="width: 100.0%; height: 100.0%;">Santa Clara - Holocene? 1465.0 m</div>`)[0];
+            popup_991ad4ffaa79470e8d29a453ab4dfb38.setContent(html_91b65e7596c540aa8cd1f052e19445c7);
+        
+
+        marker_36ca180cec3c4bfbab9436001deefbb2.bindPopup(popup_991ad4ffaa79470e8d29a453ab4dfb38)
+        ;
+
+        
+    
+    
+            var marker_7b0c1b39465340f38acf623ddbe13c8c = L.marker(
+                [37.32799910000001, -112.40100100000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_1efd33a920184cc6a18ade57215ccead = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7b0c1b39465340f38acf623ddbe13c8c.setIcon(icon_1efd33a920184cc6a18ade57215ccead);
+        
+    
+        var popup_c6b9c2be107d47b3ac0ec90dd17450f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e44a994795aa4fd98d21b48e1569971c = $(`<div id="html_e44a994795aa4fd98d21b48e1569971c" style="width: 100.0%; height: 100.0%;">Bald Knoll - Holocene 2135.0 m</div>`)[0];
+            popup_c6b9c2be107d47b3ac0ec90dd17450f7.setContent(html_e44a994795aa4fd98d21b48e1569971c);
+        
+
+        marker_7b0c1b39465340f38acf623ddbe13c8c.bindPopup(popup_c6b9c2be107d47b3ac0ec90dd17450f7)
+        ;
+
+        
+    
+    
+            var marker_c99e68dbf65f4bec848b3f0249370325 = L.marker(
+                [36.3578987, -118.3209991],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_a01073209c7345f586fdb63d046d5220 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c99e68dbf65f4bec848b3f0249370325.setIcon(icon_a01073209c7345f586fdb63d046d5220);
+        
+    
+        var popup_cb1f6dbfb9f6444db88c9acb503a425d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3974e9777f849978cc1ef245c1cd13d = $(`<div id="html_b3974e9777f849978cc1ef245c1cd13d" style="width: 100.0%; height: 100.0%;">Golden Trout Creek - Tephrochronology 2886.0 m</div>`)[0];
+            popup_cb1f6dbfb9f6444db88c9acb503a425d.setContent(html_b3974e9777f849978cc1ef245c1cd13d);
+        
+
+        marker_c99e68dbf65f4bec848b3f0249370325.bindPopup(popup_cb1f6dbfb9f6444db88c9acb503a425d)
+        ;
+
+        
+    
+    
+            var marker_6c8a27fd318d4581a7e1ca0774e6bd51 = L.marker(
+                [36.02989960000001, -117.8209991],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_458c62ce6c4c42758a2d878f695f09b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6c8a27fd318d4581a7e1ca0774e6bd51.setIcon(icon_458c62ce6c4c42758a2d878f695f09b4);
+        
+    
+        var popup_8f3a921d2c7042f994655075fbbf1cbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d6d467b006b4901bfcd64aa36d8c812 = $(`<div id="html_7d6d467b006b4901bfcd64aa36d8c812" style="width: 100.0%; height: 100.0%;">Coso Volc Field - Holocene? 2400.0 m</div>`)[0];
+            popup_8f3a921d2c7042f994655075fbbf1cbb.setContent(html_7d6d467b006b4901bfcd64aa36d8c812);
+        
+
+        marker_6c8a27fd318d4581a7e1ca0774e6bd51.bindPopup(popup_8f3a921d2c7042f994655075fbbf1cbb)
+        ;
+
+        
+    
+    
+            var marker_787a3c41186e4e27b3c485bb8cc5df79 = L.marker(
+                [36.3800011, -113.1309967],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_35dc0cc0ceff48ee8efbadda70b3a5bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_787a3c41186e4e27b3c485bb8cc5df79.setIcon(icon_35dc0cc0ceff48ee8efbadda70b3a5bf);
+        
+    
+        var popup_b022bc901a564dc09ffbb0bd50b181d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f1e4018a01e40f28ccbeae691302b61 = $(`<div id="html_5f1e4018a01e40f28ccbeae691302b61" style="width: 100.0%; height: 100.0%;">Uinkaret Field - Anthropology 1555.0 m</div>`)[0];
+            popup_b022bc901a564dc09ffbb0bd50b181d3.setContent(html_5f1e4018a01e40f28ccbeae691302b61);
+        
+
+        marker_787a3c41186e4e27b3c485bb8cc5df79.bindPopup(popup_b022bc901a564dc09ffbb0bd50b181d3)
+        ;
+
+        
+    
+    
+            var marker_e84316eeeaa2452b83d436d0f7f71ca4 = L.marker(
+                [34.75, -116.6210022],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_cc8973485f454429b791765f86a327e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e84316eeeaa2452b83d436d0f7f71ca4.setIcon(icon_cc8973485f454429b791765f86a327e2);
+        
+    
+        var popup_274bd944eee7436c9a5738094475e61d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_699230d3b4d84685a693f8be8ea6380d = $(`<div id="html_699230d3b4d84685a693f8be8ea6380d" style="width: 100.0%; height: 100.0%;">Lavic Lake - Holocene? 1495.0 m</div>`)[0];
+            popup_274bd944eee7436c9a5738094475e61d.setContent(html_699230d3b4d84685a693f8be8ea6380d);
+        
+
+        marker_e84316eeeaa2452b83d436d0f7f71ca4.bindPopup(popup_274bd944eee7436c9a5738094475e61d)
+        ;
+
+        
+    
+    
+            var marker_dfa3c66968024097b494560fbf96457c = L.marker(
+                [35.8699989, -106.5709991],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_1b80e32947ba4ccf8f1161d05418bfa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dfa3c66968024097b494560fbf96457c.setIcon(icon_1b80e32947ba4ccf8f1161d05418bfa9);
+        
+    
+        var popup_65a0055679324cff9189261c29c77b23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e3c4794e0fa4632b84326265e642fb4 = $(`<div id="html_0e3c4794e0fa4632b84326265e642fb4" style="width: 100.0%; height: 100.0%;">Valles Caldera - Pleistocene-Fumarolic 3430.0 m</div>`)[0];
+            popup_65a0055679324cff9189261c29c77b23.setContent(html_0e3c4794e0fa4632b84326265e642fb4);
+        
+
+        marker_dfa3c66968024097b494560fbf96457c.bindPopup(popup_65a0055679324cff9189261c29c77b23)
+        ;
+
+        
+    
+    
+            var marker_2fe1234ba6154eec80d7c984d7d16210 = L.marker(
+                [35.3699989, -111.5009995],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_448fc2d6380940dda2e86af813774761 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2fe1234ba6154eec80d7c984d7d16210.setIcon(icon_448fc2d6380940dda2e86af813774761);
+        
+    
+        var popup_05bbd766391b4ac180bb98fa8df49b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc6ad22001c340978d6b61df7d1ac7f1 = $(`<div id="html_bc6ad22001c340978d6b61df7d1ac7f1" style="width: 100.0%; height: 100.0%;">Sunset Crater - Dendrochronology 2447.0 m</div>`)[0];
+            popup_05bbd766391b4ac180bb98fa8df49b7d.setContent(html_bc6ad22001c340978d6b61df7d1ac7f1);
+        
+
+        marker_2fe1234ba6154eec80d7c984d7d16210.bindPopup(popup_05bbd766391b4ac180bb98fa8df49b7d)
+        ;
+
+        
+    
+    
+            var marker_acceb4e0c61747f59df0708ebe202016 = L.marker(
+                [34.5499992, -115.78099820000001],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_c69db96284be4d8faef5ccffe383468e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_acceb4e0c61747f59df0708ebe202016.setIcon(icon_c69db96284be4d8faef5ccffe383468e);
+        
+    
+        var popup_36fc53a807e44e14aafa1ead5bf43602 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bafa17302674ae18c8d7b170561490d = $(`<div id="html_7bafa17302674ae18c8d7b170561490d" style="width: 100.0%; height: 100.0%;">Amboy - Holocene 288.0 m</div>`)[0];
+            popup_36fc53a807e44e14aafa1ead5bf43602.setContent(html_7bafa17302674ae18c8d7b170561490d);
+        
+
+        marker_acceb4e0c61747f59df0708ebe202016.bindPopup(popup_36fc53a807e44e14aafa1ead5bf43602)
+        ;
+
+        
+    
+    
+            var marker_00be1726f84b4b869d7bb82c537293b1 = L.marker(
+                [34.7999992, -108.0009995],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_1a3cef93a31947b8a4c0423b2a63ad89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_00be1726f84b4b869d7bb82c537293b1.setIcon(icon_1a3cef93a31947b8a4c0423b2a63ad89);
+        
+    
+        var popup_f2c96e4e0d3a40bfb19fc5b835e7dc0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2761f5da603c457dac6d386611abe06a = $(`<div id="html_2761f5da603c457dac6d386611abe06a" style="width: 100.0%; height: 100.0%;">Zuni-Bandera - Anthropology 2550.0 m</div>`)[0];
+            popup_f2c96e4e0d3a40bfb19fc5b835e7dc0b.setContent(html_2761f5da603c457dac6d386611abe06a);
+        
+
+        marker_00be1726f84b4b869d7bb82c537293b1.bindPopup(popup_f2c96e4e0d3a40bfb19fc5b835e7dc0b)
+        ;
+
+        
+    
+    
+            var marker_334ceae610ad4e64a498cb97b3e94d30 = L.marker(
+                [33.7801018, -105.9309998],
+                {}
+            ).addTo(circle_7282ba8d36544ef3b1878b43c163196f);
+        
+    
+            var icon_df94e6cbf4e1405c8579241a787bb6bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_334ceae610ad4e64a498cb97b3e94d30.setIcon(icon_df94e6cbf4e1405c8579241a787bb6bb);
+        
+    
+        var popup_9b2b9b4978ff40a3911cb40526d6bb18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5231fe743f5149ba9c25834c12aee34f = $(`<div id="html_5231fe743f5149ba9c25834c12aee34f" style="width: 100.0%; height: 100.0%;">Carrizozo - Holocene 1731.0 m</div>`)[0];
+            popup_9b2b9b4978ff40a3911cb40526d6bb18.setContent(html_5231fe743f5149ba9c25834c12aee34f);
+        
+
+        marker_334ceae610ad4e64a498cb97b3e94d30.bindPopup(popup_9b2b9b4978ff40a3911cb40526d6bb18)
+        ;
+
+        
+    
+</script>
